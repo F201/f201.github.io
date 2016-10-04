@@ -10,7 +10,7 @@ logo:             images/logo.png # logo visible in the topbar
 
 # url: http://aronbordin.com/neo-hpstr-jekyll-theme
 # url: http://127.0.0.1:4000  #local
-url: http://f201.github.io  #online
+url: https://f201.github.io  #online
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -52,7 +52,7 @@ menu:
 # Owner/author information
 owner:
   name:           F201
-  site:           http://f201.github.io #http://aronbordin.com
+  site:           https://f201.github.io #http://aronbordin.com
   avatar:         images/avatar.jpg
   bio:            "Naruto noob cot"
   email:          you@email.com
