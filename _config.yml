@@ -9,7 +9,7 @@ logo:             images/logo.png # logo visible in the topbar
 # When testing locally leave blank or use http://localhost:4000
 
 # url: http://aronbordin.com/neo-hpstr-jekyll-theme
-# url: http://127.0.0.1:4000  #localhost
+# url: http://127.0.0.1:4000  #local
 url: http://f201.github.io  #online
 
 # draw your top menu here
@@ -52,14 +52,14 @@ menu:
 # Owner/author information
 owner:
   name:           F201
-  site:           http://f201.github.io
+  site:           http://f201.github.io #http://aronbordin.com
   avatar:         images/avatar.jpg
-  bio:            "naruto noob cot"
-  email:          rpl.gdc@noob.com
+  bio:            "Naruto noob cot"
+  email:          you@email.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: f201
+  github: aron-bordin
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
