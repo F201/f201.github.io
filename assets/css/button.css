@@ -1,0 +1,28 @@
+/*CSS for button*/
+
+.projectpageBtn {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.projectpageBtn1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+	
+.projectpageBtn1:hover {
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+}
