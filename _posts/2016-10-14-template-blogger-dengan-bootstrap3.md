@@ -1,7 +1,7 @@
 ---
 layout : post
 title : Template Blogger dengan Bootstrap 3
-description : ""
+description : "berbagi repository blogger templates"
 modified : 2016-10-14
 tags : [blogger]
 categories : [learn]
