@@ -11,7 +11,7 @@ comments: false
     <input type="submit" value="Click" onClick="isLolos(this.form)"/>
   </div>
   <h3>Results:</h3>
-  <input type="text" id="searchvalue" size="25" />
+  <p id="searchvalue"></p>
 	<!-- <ul id="results-container">
 	</ul> -->
 </article><!-- /.hentry -->
@@ -19,7 +19,7 @@ comments: false
 <script type="text/javascript">
 
   function isLolos (form) {
-      form.searchvalue.value = "Lolos";
+      document.getElementById("searchvalue").innerHTML = "Lolos";
   }
 
   // window.onload = function(){
