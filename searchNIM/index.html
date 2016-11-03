@@ -1,0 +1,34 @@
+---
+<!-- layout: post-index -->
+title: Search
+comments: false
+---
+
+<article>
+  <div style="text-align: center">
+    <h3>Ketik nim Anda.</h3>
+    <input type="text" id="search-input" size="25" />
+    <input type="submit" value="Click" onClick="isLolos(this.form)"/>
+  </div>
+  <h3>Results:</h3>
+  <input type="text" id="searchvalue" size="25" />
+	<!-- <ul id="results-container">
+	</ul> -->
+</article><!-- /.hentry -->
+
+<script type="text/javascript">
+
+  function isLolos (form) {
+      form.searchvalue.value = "Lolos"
+  }
+
+  // window.onload = function(){
+  //   new SimpleJekyllSearch({
+  //     searchInput: document.getElementById('search-input'),
+  //     resultsContainer: document.getElementById('results-container'),
+  //     json: '{{site.url}}/search.json',
+  //     searchResultTemplate: '<li class="entry-title"><a href="{url}" title="{title}">{title}</a></li>'
+  //   });
+  // }
+
+</script>
