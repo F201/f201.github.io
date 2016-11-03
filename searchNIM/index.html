@@ -7,7 +7,7 @@ comments: false
 <article>
   <div style="text-align: center">
     <h3>Ketik nim Anda.</h3>
-    <input type="number" id="searchinput" size="25" />
+    <input type="text" id="searchinput" size="25" />
     <input type="submit" value="Click" id="search"/>
   </div>
   <h3>Results:</h3>
@@ -15,7 +15,7 @@ comments: false
 </article>
 
 <script type="text/javascript">
-  var nim = [1301142018];
+  var nim = ['1301142018'];
   var nimInput = document.getElementById("search");
 
   nimInput.onclick = function() {
@@ -23,8 +23,9 @@ comments: false
 
     for (i=0; i<nim.length; i++){
       if(nim[i] == form){
-        alert("Lolos");
         document.getElementById("searchvalue").innerHTML = "Lolos";
+      }else{
+        document.getElementById("searchvalue").innerHTML = "Noob";
       }
     }
   }
