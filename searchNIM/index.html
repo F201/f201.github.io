@@ -7,18 +7,25 @@ comments: false
 <article>
   <div style="text-align: center">
     <h3>Ketik nim Anda.</h3>
-    <input type="number" id="search-input" size="25" />
-    <input type="submit" value="Click" onClick="isLolos(this.form)"/>
+    <input type="number" id="searchinput" size="25" />
+    <input type="submit" value="Click" id="search"/>
   </div>
   <h3>Results:</h3>
   <span id="searchvalue"></span>
 </article>
 
 <script type="text/javascript">
+  var nim = [1301142018];
+  var nimInput = document.getElementById("search");
 
-  function isLolos (form) {
-    var nim = ['1301142018'];
-    document.getElementById("searchvalue").innerHTML = nim.find(form);
+  nimInput.onclick = function() {
+    var form = document.getElementById("searchinput").value;
+
+    for (i=0; i<nim.length; i++){
+      if(nim[i] == form){
+        document.getElementById("searchvalue").innerHTML = "Lolos";
+      }
+    }
   }
 
 </script>
