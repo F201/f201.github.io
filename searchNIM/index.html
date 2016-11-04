@@ -44,11 +44,12 @@ if (event.keyCode == 13) {
 
   var nim = ['1301142018'];
   var nimInput = document.getElementById("search");
+  var hasil = document.getElementById("searchvalue");
+  var link = document.getElementById('link');
+  link.style.visibility='hidden';
 
   nimInput.onclick = function() {
     var form = document.getElementById("searchinput").value;
-    var hasil = document.getElementById("searchvalue");
-    var link = document.getElementById('link');
 
     for (i=0; i<nim.length; i++){
       if(nim[i] == form){
