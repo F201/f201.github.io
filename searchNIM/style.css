@@ -1,0 +1,80 @@
+/*CUMAN GINI DOANG
+KEJAR TAYANG
+GAUSAH DIINTIP :v*/
+
+
+body {
+   font-family: 'Dosis', sans-serif;
+   background-color: #aaaaaa;
+   background: url(image.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   /*color: #f47416;*/
+   color: #fff;
+}
+
+h1 {
+   font-size: 2em;
+   padding: 0;
+   letter-spacing: 2px;
+}
+
+.centered {
+   position:fixed;
+   top: 50%;
+   left: 50%;
+   width:40em;
+   height:24em;
+   margin-top: -15em;
+   margin-left: -20.5em;
+   padding: .5em;
+   border-radius: 0.3em;
+}
+
+.centered-bg {
+   position:fixed;
+   filter: blur(5px);
+   top: 50%;
+   left: 50%;
+   width:50%;
+   height:60%;
+   margin-top: -20%;
+   margin-left: -25%;
+
+   border-radius: 0.3em;
+   background-color: #000;
+   opacity: 0.65;
+
+   -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.63);
+   -moz-box-shadow:    0px 1px 20px 0px rgba(0, 0, 0, 0.63);
+   box-shadow:         0px 1px 20px 0px rgba(0, 0, 0, 0.63);
+
+}
+
+.formnim {
+   transition: background-color 0.5s ease;
+   width: 50%;
+   background-color:rgba(5, 5, 5, 0.73);
+   color: #fff;
+   font-size: 1.5em;
+   border: 0px;
+   padding: .5em;
+   text-align: center;
+}
+
+#search {
+   display: none;
+}
+
+
+.forresult {
+   margin: 0 auto;
+   margin-top: 1em;
+   text-align: center;
+   font-size: 4em;
+   letter-spacing: 3px;
+   font-weight: bolder;;
+   color: #fff;
+}

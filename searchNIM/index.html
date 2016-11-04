@@ -1,20 +1,45 @@
----
-<!-- layout: post-index -->
-title: Search
-comments: false
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>RPL & GDC | 2016</title>
 
-<article>
-  <div style="text-align: center">
-    <h3>Ketik nim Anda.</h3>
-    <input type="text" id="searchinput" size="25" />
-    <input type="submit" value="Click" id="search"/>
-  </div>
-  <h3>Results:</h3>
-  <span id="searchvalue"></span>
-</article>
+   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+
+   <link rel="stylesheet" href="style.css" media="screen" title="F201">
+
+
+</head>
+<body>
+<div class="centered-bg"></div>
+<div class="centered">
+   <article>
+     <div style="text-align: center">
+      <h1>Silakan Masukkan NIM Anda</h1>
+       <input class="formnim" type="text" id="searchinput" size="25"  onblur="if (this.placeholder == '') {this.placeholder = 'Ketik NIM lalu Enter';}" onfocus="if (this.placeholder == 'Ketik NIM lalu Enter') {this.placeholder = '';}" placeholder="Ketik NIM lalu Enter"/><br>
+       <input type="submit" Ketik NIM lalu Enter="Click" id="search"/>
+     </div>
+     <div class="forresult" id="searchvalue"></div>
+   </article>
+</div>
+
+
+
+</body>
 
 <script type="text/javascript">
+
+document.getElementById("searchinput")
+.addEventListener("keyup", function(event) {
+event.preventDefault();
+if (event.keyCode == 13) {
+     document.getElementById("search").click();
+}
+});
+
   var nim = ['1301142018'];
   var nimInput = document.getElementById("search");
 
@@ -29,5 +54,6 @@ comments: false
       }
     }
   }
-
 </script>
+
+</html>
