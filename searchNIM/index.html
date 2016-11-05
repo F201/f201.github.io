@@ -123,9 +123,11 @@
       var form = document.getElementById("searchinput").value;
       for (i = 0; i < nim.length; i++) {
          if (nim[i] == form) {
-            hasil.innerHTML = "Selamat Anda lolos seleksi berkas RPL-GDC 2016. Silahkan isi jadwal wawancara <a href='" + linkjadwal + "' target='" + "_blank" + "'><b><i>disini<i></b></a>.";
+            hasil.innerHTML = "Selamat Anda lolos seleksi berkas RPL-GDC 2016. Silahkan isi jadwal wawancara <a href='" + linkjadwal + "' target='" + "_blank" + "'>disini</a>";
             // + linkjadwal.link("https://goo.gl/pr0gQX");
             // window.open('https://goo.gl/pr0gQX', '_blank');
+            // Batas pengisian sampai 08-11-2016 pukul 22.00 WIB. Tidak mengisi jadwal dianggap mengundurkan diri.
+            
          } else {
             hasil.innerHTML = "Mohon maaf Anda belum lolos pada seleksi berkas RPL-GDC 2016 tetap semangat ya :D";
             // link.style.visibility = 'hidden';
