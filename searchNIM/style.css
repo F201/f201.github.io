@@ -1,6 +1,31 @@
+body{
+    background: url(image.jpg) no-repeat;
+    background-size: cover;
+}
+table{
+    width: 100%;
+}
+table td{
+    background: green;
+    width: 100%;
+    border: 1px solid;
+}
+.panel{
+    opacity:0.9;
+}
+.input-group{
+    display: block;
+}
+label{
+    width: 100%;
+    font-weight: normal;
+}
+#hasil{
+    margin: 15px auto 0;
+}
 /*CUMAN GINI DOANG
 KEJAR TAYANG
-GAUSAH DIINTIP :v*/
+GAUSAH DIINTIP :v
 
 
 body {
@@ -11,7 +36,6 @@ body {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   /*color: #f47416;*/
    color: #fff;
 }
 

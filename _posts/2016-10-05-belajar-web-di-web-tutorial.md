@@ -18,8 +18,9 @@ hapalan mengerikan yang terkesan mengancam. Anda hanya perlu terlatih kemudian
 memahami kode-kode untuk membangun aplikasi.  
   
 maka dari itu, pada kesempatan kali ini, saya akan berbagi situs yang akan membantu 
-Anda dalam berlatih menggunakan kode-kode untuk membangun suatu situs web. Situsnya yaitu <a title="Web Tutorial" href="https://dhanyn10.github.io/dev/tutorial/tutorial-html" target="_blank">Web Tutorial</a>, di 
-situs ini, Anda akan pelan-pelan belajar untuk memanfaatkan berbagai kode pemrograman 
+Anda dalam berlatih menggunakan kode-kode untuk membangun suatu situs web. 
+Situsnya yaitu <a title="Web Tutorial" href="https://dhanyn10.github.io/dev/tutorial/tutorial-html" target="_blank">Web Tutorial</a>, 
+di situs ini, Anda akan pelan-pelan belajar untuk memanfaatkan berbagai kode pemrograman 
 web.
   
 Disamping itu, situs ini sedang dalam tahap pengembangan, maka dari itu, penulis, 
