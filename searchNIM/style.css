@@ -8,17 +8,13 @@ GAUSAH DIINTIP :v
 
 
 body {
-   font-family: 'Dosis', sans-serif;
+   background: url(image.jpg) no-repeat;
    background-color: #aaaaaa;
-   color: #fff;
-
-   background-image: url(image.jpg);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+   background: url(image.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
-   min-width: 100%;
-   min-height: 100%;
 }
 
 h1 {
@@ -114,12 +110,6 @@ small {
 
 @media only screen and ( max-width: 768px ) {
 
-   body {
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      min-height: 100%;
-   }
 
    .imgstyle {
       width: 15%;
