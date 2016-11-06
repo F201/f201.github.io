@@ -108,14 +108,9 @@ h1 {
 @media only screen and ( max-width: 768px ) {
 
    body {
-      font-family: 'Dosis', sans-serif;
-      background-color: #aaaaaa;
-      background: url(image.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      color: #fff;
+      background-repeat:no-repeat;
+      background-size:contain;
+      background-position:center;
    }
 
    .imgstyle {
