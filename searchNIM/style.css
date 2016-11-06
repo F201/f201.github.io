@@ -112,10 +112,6 @@ small {
 }
 
 @media only screen and ( max-width: 768px ) {
-   body {
-      background-image: none;
-      background-color: #f1660b;
-   }
 
    .imgstyle {
       width: 15%;
