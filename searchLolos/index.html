@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>RPL & GDC | 2016</title>
+   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+   <link rel="stylesheet" href="style.css" media="screen" title="F201"> </head>
+
+<body>
+   <div class="centered-bg"></div>
+   <div class="centered">
+      <article>
+         <div style="text-align: center">
+            <img class="imgstyle" src="rpl.png" alt="" align="left"/>
+            <img class="imgstyle" src="gdc.png" alt="" align="right"/>
+            <br>
+
+            <h1><hr class="garis">Silakan Masukkan NIM Anda</h1>
+            <input class="formnim" type="text" id="searchinput" size="25" onblur="if (this.placeholder == '') {this.placeholder = 'Ketik NIM lalu Enter';}" onfocus="if (this.placeholder == 'Ketik NIM lalu Enter') {this.placeholder = '';}" placeholder="Ketik NIM lalu Enter"
+            />
+            <br> <input type="submit" Ketik NIM lalu Enter="Click" id="search" />
+          </div>
+         <div class="forresult" id="searchvalue"></div>
+
+      </article>
+   </div>
+</body>
+<script type="text/javascript">
+   document.getElementById("searchinput").addEventListener("keyup", function(event) {
+      event.preventDefault();
+      if (event.keyCode == 13) {
+         document.getElementById("search").click();
+      }
+   });
+   var nim = ['1301144363'];
+   var nimInput = document.getElementById("search");
+   var hasil = document.getElementById("searchvalue");
+
+   nimInput.onclick = function() {
+      var form = document.getElementById("searchinput").value;
+      for (i = 0; i < nim.length; i++) {
+         if (nim[i] == form) {
+            hasil.innerHTML = "Selamat Anda telah lolos pada tahap seleksi wawancara RPL-GDC 2016. Dimohon untuk datang first meet pada hari Rabu tanggal 16 November 2016 pukul 18.30 di gedung F ruang F201.";
+            break;
+         } else {
+            hasil.innerHTML = "Mohon maaf Anda belum lolos pada seleksi wawancara RPL-GDC 2016 tetap semangat ya :D";
+         }
+      }
+   }
+</script>
+
+</html>
