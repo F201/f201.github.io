@@ -7,16 +7,19 @@ GAUSAH DIINTIP :v
 */
 
 
-body {
+html {
    font-family: 'Dosis', sans-serif;
    background-color: #aaaaaa;
-   background: url(image.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   /*color: #f47416;*/
    color: #fff;
+
+   background: url(image.jpg) no-repeat center center fixed;
+
+   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   height: 100%;
+   overflow: hidden;
 }
 
 h1 {
@@ -105,18 +108,12 @@ h1 {
    display: none;
 }
 
-@media only screen and ( max-width: 768px ) {
+small {
+   font-size: .8em;
+   letter-spacing: 1px;
+}
 
-   body {
-      font-family: 'Dosis', sans-serif;
-      background-color: #aaaaaa;
-      background: url(image.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      color: #fff;
-   }
+@media only screen and ( max-width: 768px ) {
 
    .imgstyle {
       width: 15%;
@@ -144,7 +141,7 @@ h1 {
    }
 
    .centered {
-      top: 5%;
+      top: 0%;
       left: 50%;
       width:80%;
       height:100%;
@@ -165,4 +162,8 @@ h1 {
       color: #fff;
    }
 
+   small {
+      font-size: .9em;
+      letter-spacing: 1px;
+   }
 }
