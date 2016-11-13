@@ -10,7 +10,7 @@ GAUSAH DIINTIP :v
 body {
    font-family: 'Dosis', sans-serif;
    background-color: #aaaaaa;
-   background: url(image.jpg) no-repeat center center fixed;
+   background: url(bgLolos.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -110,7 +110,7 @@ h1 {
    body {
       font-family: 'Dosis', sans-serif;
       background-color: #aaaaaa;
-      background: url(image.jpg) no-repeat center center fixed;
+      background: url(bgLolos.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
