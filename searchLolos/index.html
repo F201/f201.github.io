@@ -35,7 +35,14 @@
          document.getElementById("search").click();
       }
    });
-   var nim = ['1301144363'];
+   var nim = [
+     //  GDC 17
+     '1301164552','1301164121','1301164193','1301164048','1301160335','1301164273','6706164114','6702161018','1301164084'
+     ,'1301164451','1301150049','1301150074','1301153622','1301144394','1301140387','1301144037','1301140167'
+     //  RPL 15
+     ,'1301140134','1301150038','1301154282','1301154527','1301154361','1301154210','1301150037','1301154298','1301154511'
+     ,'1301164034','1301164296','6706161060','1301164244','1301164400','1301154193'
+];
    var nimInput = document.getElementById("search");
    var hasil = document.getElementById("searchvalue");
 
@@ -43,7 +50,7 @@
       var form = document.getElementById("searchinput").value;
       for (i = 0; i < nim.length; i++) {
          if (nim[i] == form) {
-            hasil.innerHTML = "Selamat Anda telah lolos pada tahap seleksi wawancara RPL-GDC 2016. Dimohon untuk datang first meet pada hari Rabu tanggal 16 November 2016 pukul 18.30 di gedung F ruang F201.";
+            hasil.innerHTML = "Selamat Anda telah lolos pada tahap seleksi wawancara RPL-GDC 2016. Dimohon untuk datang first meet pada hari Rabu tanggal 16 November 2016 pukul 18.30 di gedung F ruang F201. Kegiatan kalian selanjutnya akan disampaikan pada first meet nanti. Ditunggu kehadiran kalian :D";
             break;
          } else {
             hasil.innerHTML = "Mohon maaf Anda belum lolos pada seleksi wawancara RPL-GDC 2016 tetap semangat ya :D";
